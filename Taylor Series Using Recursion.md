@@ -14,10 +14,23 @@ To write a Python program to evaluate a **Taylor Series** using **recursion**, w
 5. Print the result
 6. **Stop**
 
-## 💻 PROGRAM:
 
-ADD CODE HERE
+## 💻 PROGRAM:
+```
+def fun(x,n):
+    if(n==0):
+        return 1 
+    else:
+        return (x**n+fun(x,n-1))
+x=int(input())
+n=int(input())
+print(fun(x,n))
+```
 
 ## OUTPUT
+<img width="398" height="238" alt="image" src="https://github.com/user-attachments/assets/60305ba6-41ea-4536-94d7-ae9e2caeabbb" />
 
 ## RESULT
+Thus the output is verified.
+
+
